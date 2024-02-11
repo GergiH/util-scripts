@@ -12,7 +12,7 @@ if folder is None or size is None:
 
 files_to_delete = []
 
-print(f'Removing smaller than {size}p JPGs and PNGs from folder: {folder}\n')
+print(f'Removing smaller than {size}p pictures from folder: {folder}\n')
 
 filenames_in_folder = [f for f in listdir(folder) if isfile(join(folder, f))]
 
